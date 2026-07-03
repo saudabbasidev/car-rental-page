@@ -13,7 +13,7 @@ export default function Herosection() {
   }, []);
 
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-4">
       <div className="mx-auto max-w-7xl px-6">
         <div className="h-screen">
           {/* Heading */}
@@ -38,7 +38,7 @@ export default function Herosection() {
           {/* Scroll indicator */}
 
           {/* Marketplace */}
-          <div className="text-center">
+          <div className="text-center -mt-4">
             <h2 className="text-5xl font-bold text-gray-900">
               Check out
               <br />
