@@ -17,10 +17,10 @@ export default function Herosection() {
       <div className="mx-auto max-w-7xl px-6">
         {/* Heading */}
         <div className="text-center" data-aos="fade-up">
-          <h1 className="mx-auto max-w-3xl text-4xl font-bold leading-tight text-gray-900 md:text-5xl">
-            Explore the world's largest car sharing &
+          <h1 className="mx-auto max-w-3xl text-5xl font-bold leading-tight text-gray-900 md:text-6xl">
+            Find Rent, Book a car
             <br />
-            rental marketplace
+            <span className="font-normal">quickly and easily!</span>
           </h1>
         </div>
 
@@ -30,7 +30,7 @@ export default function Herosection() {
           <img
             src="/hero.png"
             alt="Car"
-            className="mt-20 w-full max-w-6xl object-contain"
+            className=" w-full max-w-6xl object-contain"
           />
         </div>
 
