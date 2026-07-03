@@ -22,7 +22,7 @@ export default function Reviews() {
         </div>
 
         {/* Reviews */}
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3" data-aos="fade-left">
 
           {/* Review 1 */}
           <div className="card border border-base-300 bg-base-100 shadow-sm">

@@ -8,6 +8,7 @@ export default function CarCard() {
     <div className="px-6 flex flex-wrap justify-center items-center gap-10 ">
       {cars.map((car) => (
         <div
+         data-aos="fade-up"
           key={car.id}
           className="card aspect-square w-80 bg-blue-50 shadow-md"
         >

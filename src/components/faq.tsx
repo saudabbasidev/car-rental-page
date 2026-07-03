@@ -42,6 +42,7 @@ export default function FAQSection() {
         <div className="space-y-3">
           {faqs.map((faq, index) => (
             <div
+            data-aos="fade-up"
               key={index}
               className="collapse collapse-plus rounded-xl border border-base-300 bg-base-100"
             >

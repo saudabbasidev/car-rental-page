@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <>
-    <nav className="flex justify-between px-10 py-6">
+    <nav className="flex justify-between p-8 max-w-360">
 <div>
 <img src="/favicon.svg" alt="logo" />
 </div>

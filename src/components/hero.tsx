@@ -7,7 +7,7 @@ export default function Herosection() {
     AOS.init({
       duration: 800, // animation speed
       easing: "ease-in-out",
-      once: true, // animate only once
+      once: false, // animate only once
       offset: 100,
     });
   }, []);
@@ -15,38 +15,40 @@ export default function Herosection() {
   return (
     <section className="bg-white py-16">
       <div className="mx-auto max-w-7xl px-6">
-        {/* Heading */}
-        <div className="text-center" data-aos="fade-up">
-          <h1 className="mx-auto max-w-3xl text-5xl font-bold leading-tight text-gray-900 md:text-6xl">
-            Find Rent, Book a car
-            <br />
-            <span className="font-normal">quickly and easily!</span>
-          </h1>
-        </div>
+        <div className="h-screen">
+          {/* Heading */}
+          <div className="text-center" data-aos="fade-up">
+            <h1 className="mx-auto max-w-3xl text-5xl font-bold leading-tight text-gray-900 md:text-6xl">
+              Find Rent, Book a car
+              <br />
+              <span className="font-normal">quickly and easily!</span>
+            </h1>
+          </div>
 
-        {/* Hero */}
-        <div className="flex justify-center" data-aos="fade-up">
-          {/* Car */}
-          <img
-            src="/hero.png"
-            alt="Car"
-            className=" w-full max-w-6xl object-contain"
-          />
-        </div>
+          {/* Hero */}
+          <div className="flex justify-center" data-aos="fade-up">
+            {/* Car */}
+            <img
+              src="/hero.png"
+              alt="Car"
+              className=" w-full max-w-6xl object-contain"
+            />
+          </div>
 
-        {/* Scroll indicator */}
+          {/* Scroll indicator */}
 
-        {/* Marketplace */}
-        <div className="text-center">
-          <h2 className="text-5xl font-bold text-gray-900">
-            Check out
-            <br />
-            our marketplace
-          </h2>
+          {/* Marketplace */}
+          <div className="text-center">
+            <h2 className="text-5xl font-bold text-gray-900">
+              Check out
+              <br />
+              our marketplace
+            </h2>
 
-          <p className="mt-4 text-gray-500">
-            Find your drive through our easy service
-          </p>
+            <p className="mt-4 text-gray-500">
+              Find your drive through our easy service
+            </p>
+          </div>
         </div>
 
         {/* Cards */}

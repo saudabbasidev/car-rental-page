@@ -16,7 +16,7 @@ const map = () => {
   return (
     <>
     <h1 className="p-10 text-center text-5xl font-black mt-20">Rental Locations 📍</h1>
-      <div className="flex items-center justify-center max-md:flex-col gap-5 p-5">
+      <div className="flex items-center justify-center max-md:flex-col gap-5 p-5" data-aos="fade-up">
         {maps.map((it) => (
           <div className="card bg-base-100 image-full  shadow-sm ">
             <figure>
